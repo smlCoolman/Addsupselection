@@ -6,5 +6,8 @@ Dim result As Double
 result = WorksheetFunction.Sum(Selection.Value)
 MsgBox "The total of the selection is " & result
 
+'This makes an Input Box so you can copy the output. It took me way to long to figure out this simple solution
+'inputbox "The total of the selection is ","Input Box Says!", result
+
 End Sub
 
