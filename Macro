@@ -2,8 +2,9 @@ Sub Sumitup()
 
 
 Dim result As Double
-Set Rng = Selection
+
 result = WorksheetFunction.Sum(Selection.Value)
 MsgBox "The total of the selection is " & result
+
 End Sub
 
