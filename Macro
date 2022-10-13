@@ -1,6 +1,6 @@
 Sub Sumitup()
 
-Dim Rng As Range
+
 Dim result As Double
 Set Rng = Selection
 result = WorksheetFunction.Sum(Selection.Value)
